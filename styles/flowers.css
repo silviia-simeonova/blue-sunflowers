@@ -1,0 +1,93 @@
+.services-top-section,
+.services-mid-section,
+.services-bottom-section {
+    margin-bottom: 3.5rem;
+}
+
+.service-tile {
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 1.5rem;
+}
+
+.check-mark-icon {
+    font-size: 4rem;
+    color: var(--cozy-pink-accent);
+    font-weight: bold;
+    line-height: 1;
+}
+
+.tiles-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.flower-tile {
+    gap: 1rem;
+}
+
+.services-table-wrapper {
+    overflow-x: auto;
+    border-radius: 1.5rem;
+    border: 2px dashed var(--cozy-pink-dark);
+    box-shadow: 0 1px 2px var(--shadow-light);
+    background-color: var(--color-white);
+}
+
+.services-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.services-table th {
+    background-color: var(--cozy-pink);
+    color: var(--text-sky);
+    font-family: 'Caveat', cursive;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border-bottom: 2px dashed var(--cozy-pink-dark);
+}
+
+.services-table td {
+    padding: 1.1rem 1rem;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-dark);
+    font-size: 1.1rem;
+}
+
+.services-table tr:last-child td {
+    border-bottom: none;
+}
+
+.services-table tr:hover {
+    background-color: var(--cozy-pink-hover);
+}
+
+.table-check {
+    color: var(--cozy-pink-accent);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.services-remark {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    color: var(--cozy-blue-dark);
+    font-style: italic;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .tiles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .tiles-grid {
+        grid-template-columns: 1fr;
+    }
+}

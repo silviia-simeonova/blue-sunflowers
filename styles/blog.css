@@ -1,0 +1,11 @@
+.story-list {
+    margin-bottom: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.story-list li {
+    margin-bottom: 0.75rem;
+    color: var(--text-dark);
+    line-height: 1.6;
+    font-size: 1.125rem;
+}
